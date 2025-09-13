@@ -15,7 +15,7 @@ import fsp from 'fs/promises';
 import { fileURLToPath } from 'url';
 import { setupOpenai, runAI } from './ai/inference.js';
 
-app.setName('intrinseco');
+app.setName('Intrínseco');
 
 // Single-instance lock
 const gotLock = app.requestSingleInstanceLock();
